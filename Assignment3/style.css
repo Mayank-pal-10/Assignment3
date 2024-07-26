@@ -1,0 +1,94 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set body to full height and center content */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+/* Poster container styles */
+.poster-container {
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Poster image styles */
+.poster-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Overlay text styles */
+.poster-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.poster-text h1 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    position: relative;
+    bottom: 14rem;
+    color: beige;
+}
+
+.poster-text h2 {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+    font-size: 4em;
+    margin-bottom: 0.5em;
+    position: relative;
+    bottom: 16rem;
+    color: bisque;
+}
+
+.poster-text p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    position: relative;
+    top: 8em;
+    font-weight: bolder;
+    color: lemonchiffon;
+}
+
+/* Link styles */
+.poster-text a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: blanchedalmond;
+    border: 2px solid #df9166;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    border-style: none;
+}
+
+.poster-text a:hover {
+    background-color: white;
+    color: black;
+}
+
+.links{
+    display: flex;
+    white-space: pre;
+    display: flex;
+    position: relative;
+    top: 13rem;
+}
+
